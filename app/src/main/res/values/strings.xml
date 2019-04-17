@@ -2,4 +2,11 @@
     <string name="app_name">AD340</string>
     <string name="edit_message">Enter a message</string>
     <string name="button_send">Send</string>
+    <string name="title">My Android Project</string>
+    <string name="author">By Kevin Le</string>
+    <string name="fun_fact">Fun Fact: I can play the piano!</string>
+    <string name="toast1">Toast 1</string>
+    <string name="toast2">Toast 2</string>
+    <string name="toast3">Toast 3</string>
+    <string name="toast4">Toast 4</string>
 </resources>
