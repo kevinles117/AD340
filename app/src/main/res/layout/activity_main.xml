@@ -73,7 +73,8 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="32dp"
         android:layout_marginTop="68dp"
-        android:text="@string/toast1"
+        android:onClick="displayMovies"
+        android:text="@string/displayMovies"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/editText" />
 

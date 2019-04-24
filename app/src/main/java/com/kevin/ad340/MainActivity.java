@@ -3,6 +3,7 @@ package com.kevin.ad340;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
         myButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getApplicationContext(), toast1, Toast.LENGTH_LONG).show();
+                displayMovies(v);
             }
         });
 
@@ -56,12 +57,8 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void buttonPressed(View view) {
-        Context context = getApplicationContext();
-        CharSequence text = "It worked!";
-        int duration = Toast.LENGTH_SHORT;
-
-        Toast toast = Toast.makeText(context, text, duration);
-        toast.show();
+    public void displayMovies(View v) {
+        Intent intent = new Intent(this, DisplayZombieMovies.class);
+        startActivity(intent);
     }
 }
