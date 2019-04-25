@@ -6,4 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".DisplayZombieMovies">
 
+    <ListView
+        android:id="@+id/movieList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
