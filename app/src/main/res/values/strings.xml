@@ -1,13 +1,12 @@
 <resources>
-    <string name="app_name">AD340</string>
-    <string name="edit_message">Enter a message</string>
-    <string name="button_send">Send</string>
-    <string name="title">My Android Project</string>
-    <string name="author">By Kevin Le</string>
-    <string name="fun_fact">Fun Fact: I can play the piano!</string>
-    <string name="toast1">Toast 1</string>
-    <string name="toast2">Toast 2</string>
-    <string name="toast3">Toast 3</string>
-    <string name="toast4">Toast 4</string>
-    <string name="displayMovies">Test</string>
+    <string name="title">My First Program!</string>
+    <string name="author">Kevin Le</string>
+    <string name="fun_fact">I can play the piano!</string>
+    <string name="edit_message">Type a message</string>
+    <string name="button_send">SEND</string>
+    <string name="display_movie">Movies</string>
+    <string name="toast2">Text</string>
+    <string name="toast3">Text</string>
+    <string name="toast4">Text</string>
+    <string name="app_name">My First Program!</string>
 </resources>
